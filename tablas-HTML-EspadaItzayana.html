@@ -1,0 +1,179 @@
+<html> 
+    <head>
+        <title>
+            Tablas
+        </title>
+        <link  href="styles-table.css" rel="stylesheet"/>
+
+    </head>
+
+    <body>
+        <table class="tabla-sencilla"> 
+            <caption class = "tipo-tabla"> Tabla sencilla</caption>
+            <thead>
+            <tr>
+                <th> Clima</th>
+                <th> Numero de dias</th>
+            </tr>
+            </thead>
+            <tbody> 
+            <tr>
+                <td> Soleado</td>
+                <td> 12</td>
+            </tr>
+            <tr>
+                <td> Nubes y sol</td>
+                <td> 9</td>
+            </tr>
+            <tr>
+                <td> Nublado</td>
+                <td> 5</td>
+            </tr>
+            <tr>
+                <td> Lluvia</td>
+                <td> 4</td>
+            </tr>
+            </tbody>    
+        </table>
+
+        <table class ="tabla-combinacion-columnas">
+            <caption class = "tipo-tabla"> Tabla con combinación de columnas</caption>
+            <caption class = "nombre-tabla-2"><i> DIFERENCIAS ENTE EL PERRO Y EL HOMBRE</i></caption>
+            <thead>
+                <tr >
+                    <th> Diferencias</th>
+                    <th> Perro pequeño</th>
+                    <th>Perro grande</th>
+                    <th>Humano</th>
+                </tr>
+            </thead>
+            
+
+            <tbody>
+                <tr>
+                    <td > Duración de crecimiento</td>
+                    <td> 10 meses</td>
+                    <td>18 a 24 meses</td>
+                    <td>16 años</td>
+                </tr>
+                <tr>
+                    <td> Tiempo de gestación</td>
+                    <td colspan="2"> 58 a 63 días</td>
+                    <td>9 meses</td>
+                </tr>
+                <tr>
+                    <td>Duración de vida del pelo/cabello</td>
+                    <td colspan="2"> 1 año</td>
+                    <td>2 a 7 años</td>
+                </tr>
+            </tbody>
+
+        </table>
+
+        <table class ="tabla-combinacion-renglones"> 
+            <caption class = "tipo-tabla"> Tabla con combinación de renglones</caption>
+            <thead>
+                <tr>
+                    <th rowspan="2", colspan="2" >Super OFERTA viaje a Nueva Zelanda</th>
+                    <th colspan="2">Hoteles 3 estrellas</th>
+                    <th rowspan ="2">Hoteles 4 estrellas</th>
+                </tr>
+                <tr>
+                    <td>Solo alojamiento</td>
+                    <td>Pensión completa</td>
+                    
+                </tr>
+            </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="2">1 semana</td>
+                        <td>Avion turista</td>
+                        <td>700 USD</td>
+                        <td>1000 USD</td>
+                        <td rowspan="2">1500 USD</td>
+                    </tr>
+                    <tr>
+                        <td>Avión preferente</td>
+                        <td>850 USD</td>
+            
+                        <td>1150 USD</td>
+                    </tr>
+                    <tr>
+                        <td>2 semanas</td>
+                        <td></td>
+                        <td>1300 USD</td>
+                        <td>1800 USD</td>
+                        <td>2600 USD</td>
+                    </tr>
+                </tbody>
+            
+
+        </table>
+
+    <table class = "combinacion-renglones-columnas"> 
+        <caption class = "tipo-tabla"> Tabla con combinación de columnas y renglones</caption>
+        <thead>
+            <tr>
+                <th rowspan="2">Concepto</th>
+                <th colspan="3">Entradas</th>
+                <th colspan="3">Salidas</th>
+                <th colspan="3">Existencias</th>
+
+    
+            </tr>
+            <tr>
+                <th style=" transform: rotate(-20deg)">Cantidad </th>
+                <th style=" transform: rotate(-20deg)">Precio</th>
+                <th style=" transform: rotate(-20deg)">Total</th>
+                <th style=" transform: rotate(-20deg)">Cantidad</th>
+                <th style=" transform: rotate(-20deg)">Precio</th>
+                <th style=" transform: rotate(-20deg)">Total</th>
+                <th style=" transform: rotate(-20deg)">Cantidad</th>
+                <th style=" transform: rotate(-20deg)">Precio</th>
+                <th style=" transform: rotate(-20deg)">Total</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">Compra</td>
+                <td rowspan="2">300</td>
+                <td rowspan="2">122</td>
+                <td rowspan="2">367</td>
+                <td rowspan="2"></td>
+                
+                <td>250</td>
+                <td>1000</td>
+                <td></td>
+                <td></td>
+                <td>617</td>
+
+            </tr>
+            <tr>
+                <td>250</td>
+                <td>1224</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td rowspan="3">Dev.Compra (I)</td>
+                <td rowspan="3", colspan="3"></td>
+                <td rowspan="3">50</td>
+                <td rowspan="3">1224</td>
+                <td rowspan="3">612</td>
+                <td>251</td>
+                <td>100</td>
+                <td>556</td>
+            </tr>
+            <tr>
+                <td rowspan="2">250</td>
+                <td rowspan="2">122.000</td>
+                <td rowspan="2"></td>
+    
+            </tr>
+        </tbody>
+
+    </table>
+    </body>
+</html>
